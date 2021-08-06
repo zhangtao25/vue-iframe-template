@@ -9,7 +9,6 @@ export default {
     const {option} = toRefs(props)
     const chartRef = ref<any>(null)
     const myChart:any = ref<any>(null)
-
     const myChartResize = ()=>{
       myChart.value.resize()
       console.log('resize...')
